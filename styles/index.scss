@@ -12,13 +12,14 @@ body {
   justify-content: space-between;
   color: #ffff;
   background-color: black;
-  max-width: 1440px;
-  height: 100%;
+  width: 1440px;
+
   margin: 0;
   padding: 115px 132px 115px 132px;
 }
 .card {
   display: flex;
+
   flex-direction: column;
   width: 380px;
   height: 770px;
@@ -46,16 +47,18 @@ body {
     margin-right: 22px;
     margin-left: 22px;
   }
+
   &__list {
     list-style-type: none;
     padding-left: 0;
     margin-top: 0;
+
     &_item {
       display: flex;
       align-items: center;
       width: 380px;
       height: 50px;
-      &-checked {
+      &:nth-child(odd) {
         background-color: #2a3438;
         opacity: 50%;
       }
@@ -129,9 +132,11 @@ body {
   text-transform: uppercase;
   text-align: center;
   font-size: 14px;
+  line-height: 40px;
   font-weight: 700;
+
   position: absolute;
   top: 25px;
-  right: 25px;
+  right: 5px;
   transform: rotate(45deg);
 }
