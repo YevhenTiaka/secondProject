@@ -44,7 +44,8 @@ body {
   font-size: 35px;
 }
 .price-card__subtitle {
-  margin-bottom: 33px;
+  margin-bottom: 30px;
+  margin-top: 3px;
   font-size: 20px;
 }
 .price-card__price {
