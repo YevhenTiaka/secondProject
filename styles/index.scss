@@ -13,9 +13,8 @@ body {
   color: #ffff;
   background-color: #141b1c;
   width: 1440px;
-
   margin: 0;
-  padding: 115px 132px 115px 132px;
+  padding: 112px 132px 115px 132px;
 }
 .price-card__item {
   margin-left: 22px;
@@ -35,14 +34,16 @@ body {
 
   &__popular {
     position: relative;
-    &-title {
+    &-mark {
       text-transform: uppercase;
       font-size: 14px;
       line-height: 40px;
       font-weight: 700;
-      top: 0px;
-      right: 250px;
       transform: rotate(45deg);
+      z-index: 1;
+      position: absolute;
+      top: 25px;
+      right: 7px;
     }
   }
   &-rectangle {
@@ -75,6 +76,7 @@ body {
     height: 105px;
     font-size: 55px;
     margin-bottom: 40px;
+    font-weight: 700;
     &-second {
       background-color: #3a6ba5;
     }
@@ -122,36 +124,5 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    opacity: 50%;
-
-    &_item {
-      display: flex;
-      align-items: center;
-      width: 380px;
-      height: 50px;
-    }
   }
 }
-.price-card__item {
-  height: 50px;
-  display: flex;
-  align-items: center;
-}
-
-// .rectangle {
-//   position: absolute;
-//   top: 0;
-//   right: 0;
-// }
-// .price-card__popular {
-//   text-transform: uppercase;
-//   text-align: center;
-//   font-size: 14px;
-//   line-height: 40px;
-//   font-weight: 700;
-
-//   position: absolute;
-//   top: 25px;
-//   right: 5px;
-//   transform: rotate(45deg);
-// }
