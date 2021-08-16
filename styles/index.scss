@@ -4,8 +4,6 @@
 body {
   font-family: Montserrat, sans-serif;
   font-style: normal;
-  margin: 0;
-  padding: 0;
   background-color: #141b1c;
 }
 @import 'price-card';
@@ -15,6 +13,6 @@ body {
   display: flex;
   flex-direction: row;
   color: $colorWhite;
-  width: 1440px;
+  width: 1450px;
   padding: 70px 132px 115px 132px;
 }
