@@ -44,7 +44,6 @@ body {
   margin-top: 33px;
   font-weight: 700;
   font-size: 35px;
-  line-height: 30.48px;
 }
 .price-card__subtitle {
   margin-bottom: 33px;
@@ -134,7 +133,7 @@ body {
   color: #fff;
   width: 1440px;
   margin: 0;
-  padding: 115px 132px 115px 132px;
+  padding: 80px 132px 115px 132px;
 }
 
 /*# sourceMappingURL=styles.css.map */
