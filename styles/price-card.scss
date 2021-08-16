@@ -1,6 +1,8 @@
 @import 'variables';
 
 .price-card {
+  position: relative;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,24 +12,17 @@
   background-color: $bgcolor;
   font-size: $listFontSize;
 
-  &__popular {
-    position: relative;
-    .rectangle {
-      position: absolute;
-      font-weight: 700;
-      top: 35px;
-      right: 5px;
-      line-height: 17px;
-      transform: rotate(45deg);
-    }
-    &-img {
-      font-size: 14px;
-      line-height: 40px;
-      font-weight: 700;
-      position: absolute;
-      top: 0px;
-      right: 0px;
-    }
+  &__pop {
+    position: absolute;
+    top: 30px;
+    right: -30px;
+    height: 25px;
+    width: 147px;
+    background-color: red;
+    text-align: center;
+    transform: rotate(45deg);
+    font-weight: 700;
+    line-height: 25px;
   }
 
   &__title {
@@ -104,12 +99,6 @@
       background-color: $columnBgColor;
       opacity: 50%;
     }
-  }
-
-  &-rectangle {
-    position: absolute;
-    top: 0;
-    right: 0;
   }
 
   &__btn {
