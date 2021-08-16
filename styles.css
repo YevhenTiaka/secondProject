@@ -5,8 +5,6 @@
 body {
   font-family: Montserrat, sans-serif;
   font-style: normal;
-  margin: 0;
-  padding: 0;
   background-color: #141b1c;
 }
 
@@ -78,7 +76,7 @@ body {
   list-style-type: none;
   padding-left: 0px;
   margin: 0;
-  line-height: 50px;
+  line-height: 48px;
   font-size: 15px;
 }
 .price-card__item {
@@ -134,7 +132,6 @@ body {
   flex-direction: row;
   color: #fff;
   width: 1440px;
-  margin: 0;
   padding: 70px 132px 115px 132px;
 }
 
