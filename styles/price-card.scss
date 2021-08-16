@@ -39,6 +39,7 @@
   }
 
   &__subtitle {
+    margin-top: 5px;
     margin-bottom: 33px;
     font-size: 20px;
   }
@@ -79,8 +80,7 @@
 
   &__item {
     padding-left: 22px;
-    opacity: 60%;
-
+    opacity: 70%;
     &-green {
       background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png');
       background-repeat: no-repeat;
@@ -103,6 +103,7 @@
   &__item {
     &:nth-child(odd) {
       background-color: $columnBgColor;
+      opacity: 50%;
     }
   }
 
