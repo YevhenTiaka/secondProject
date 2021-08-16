@@ -86,19 +86,19 @@ body {
 .price-card__item-green {
   background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png");
   background-repeat: no-repeat;
-  padding-left: 40px;
+  padding-left: 37px;
   font-style: normal;
 }
 .price-card__item-blue {
   background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png");
   background-repeat: no-repeat;
-  padding-left: 40px;
+  padding-left: 37px;
   font-style: normal;
 }
 .price-card__item-orange {
   background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png");
   background-repeat: no-repeat;
-  padding-left: 40px;
+  padding-left: 37px;
   font-style: normal;
 }
 .price-card__item:nth-child(odd) {
