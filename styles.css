@@ -7,6 +7,7 @@ body {
   font-style: normal;
   margin: 0;
   padding: 0;
+  background-color: #141b1c;
 }
 
 .price-card {
@@ -42,12 +43,12 @@ body {
   margin: 0;
   margin-top: 33px;
   font-weight: 700;
-  font-size: 25px;
+  font-size: 35px;
   line-height: 30.48px;
 }
 .price-card__subtitle {
   margin-bottom: 33px;
-  font-size: 14px;
+  font-size: 20px;
 }
 .price-card__price {
   display: flex;
@@ -87,19 +88,19 @@ body {
 .price-card__item-green {
   background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png");
   background-repeat: no-repeat;
-  padding-left: 22px;
+  padding-left: 32px;
   font-style: normal;
 }
 .price-card__item-blue {
   background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png");
   background-repeat: no-repeat;
-  padding-left: 22px;
+  padding-left: 32px;
   font-style: normal;
 }
 .price-card__item-orange {
   background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png");
   background-repeat: no-repeat;
-  padding-left: 22px;
+  padding-left: 32px;
   font-style: normal;
 }
 .price-card__item:nth-child(odd) {

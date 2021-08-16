@@ -34,13 +34,13 @@
     margin: 0;
     margin-top: 33px;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 35px;
     line-height: 30.48px;
   }
 
   &__subtitle {
     margin-bottom: 33px;
-    font-size: 14px;
+    font-size: 20px;
   }
 
   &__price {
@@ -83,19 +83,19 @@
     &-green {
       background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png');
       background-repeat: no-repeat;
-      padding-left: 22px;
+      padding-left: 32px;
       font-style: normal;
     }
     &-blue {
       background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png');
       background-repeat: no-repeat;
-      padding-left: 22px;
+      padding-left: 32px;
       font-style: normal;
     }
     &-orange {
       background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png');
       background-repeat: no-repeat;
-      padding-left: 22px;
+      padding-left: 32px;
       font-style: normal;
     }
   }
