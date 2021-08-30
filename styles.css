@@ -22,6 +22,7 @@ body {
 }
 .price-card__pop {
   position: absolute;
+  font-size: 13px;
   top: 30px;
   right: -30px;
   height: 25px;
@@ -123,7 +124,7 @@ body {
   flex-direction: row;
   color: #fff;
   width: 1440px;
-  padding: 70px 132px 115px 132px;
+  padding: 65px 132px 115px 132px;
 }
 
 /*# sourceMappingURL=styles.css.map */
