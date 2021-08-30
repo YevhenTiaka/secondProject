@@ -2,7 +2,7 @@
 
 ### [Site link](https://github.com/YevhenTiaka/secondProject)
 
-Layout desctop version
+Layout desktop version
 
 ### The tech stack is:
 
