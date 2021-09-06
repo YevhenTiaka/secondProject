@@ -1,6 +1,6 @@
 # Layout Sample Project
 
-### [Site link](https://github.com/YevhenTiaka/secondProject)
+## [Site link](https://github.com/YevhenTiaka/secondProject)
 
 Layout desktop version
 
