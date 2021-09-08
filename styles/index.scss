@@ -6,9 +6,6 @@ body {
   font-style: normal;
   background-color: #141b1c;
 }
-@import 'variables';
-@import 'price-card';
-
 .container {
   display: flex;
   flex-direction: row;
@@ -18,3 +15,5 @@ body {
   margin-right: auto;
   padding: 65px 132px 115px 132px;
 }
+@import 'variables';
+@import 'price-card';
