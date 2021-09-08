@@ -2,6 +2,8 @@
 
 ## [Site link](https://github.com/YevhenTiaka/secondProject)
 
+## [Git Hub Page](https://yevhentiaka.github.io/secondProject/)
+
 Layout desktop version
 
 ### The tech stack is:
